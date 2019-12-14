@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title>kang soo been</title>
+<link rel="shortcut icon" type="image/x-icon" href="../res/soob.png"/>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -32,10 +33,10 @@ body, html {
       <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
     </div>
     <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+      <a href="#menu" class="w3-button w3-block w3-black">LIKE</a>
     </div>
     <div class="w3-col s3">
-      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+      <a href="#picture" class="w3-button w3-block w3-black">PICTURE</a>
     </div>
   </div>
 </div>
@@ -57,85 +58,81 @@ body, html {
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT SOOBEEN</span></h5>
-    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <p>This page introduces me simply. I like taking pictures. I will show off the pictures I took. Let me introduce my favorite food and my hobby.</p>
+    <p>After graduating from a two-year college, I worked in accounting, and I moved to the computer science department
+      because I wanted to be a developer and make a game. And this is the last final exam for the second semester of the fourth grade.
+      You can graduate after this exam.</p>
     <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+      <p><i>"An onion will not produce a rose."</i></p>
+      <p>This is my favorite proverb.</p>
     </div>
-    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
-    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+    <img src="../res/soob.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p>When I went to Cambodia for volunteer work, I went to the sea of Sihanoukville on the last day.</p>
+    <p>Ochheuteal Beach Path, Kâmpóng Saôm, Sihanoukville, Cambodia</p>
   </div>
 </div>
 
 <!-- Menu Container -->
 <div class="w3-container" id="menu">
   <div class="w3-content" style="max-width:700px">
- 
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
-  
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">LIKE IT ANYTHING</span></h5>
     <div class="w3-row w3-center w3-card w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Anything');" id="myLink">
+        <div class="w3-col s6 tablink">Anything</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');">
         <div class="w3-col s6 tablink">Eat</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">Drink</div>
-      </a>
+    </div>
+
+    <div id="Anything" class="w3-container menu w3-padding-48 w3-card">
+      <h5>SEVENTEEN</h5>
+      <p class="w3-text-grey">Seventeen is a K-pop idol. Right now, it is my favorite idol group.</p><br>
+
+      <h5>NU'EST</h5>
+      <p class="w3-text-grey">NU'EST is the same agency as SEVENTEEN. My second favorite idol group.</p><br>
+
+      <h5>Overwatch</h5>
+      <p class="w3-text-grey">Overwatch is a shooting game for Blizzard Entertainment. My favorite online game.</p><br>
+
+      <h5>A comic book</h5>
+      <p class="w3-text-grey">I like to see comic books themselves rather than animations or e-books, and I like to buy comic books and keep them on the bookshelf.</p><br>
+
+      <h5>Sticker Collection</h5>
+      <p class="w3-text-grey">It may seem unusual, but I like to collect stickers.</p>
     </div>
 
     <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Bread Basket</h5>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-    
-      <h5>Honey Almond Granola with Fruits</h5>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-    
-      <h5>Belgian Waffle</h5>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-    
-      <h5>Scrambled eggs</h5>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h5>Blueberry Pancakes</h5>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
-    </div>
+      <h5>Kimchi-jjigae</h5>
+      <p class="w3-text-grey">kimchi-jjigae is my favorite food. a typical Korean citizen You can basically eat two bowls of rice with just kimchi-jjigae.</p><br>
 
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Coffee</h5>
-      <p class="w3-text-grey">Regular coffee 2.50</p><br>
-    
-      <h5>Chocolato</h5>
-      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
-    
-      <h5>Corretto</h5>
-      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
-    
-      <h5>Iced tea</h5>
-      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
-    
-      <h5>Soda</h5>
-      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
-    </div>  
-    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+      <h5>Tangerine</h5>
+      <p class="w3-text-grey">Tangerine is my favorite fruit. You can sit in one place and eat ten when you are free Because I like tangerines, my email password contains tangerines.</p><br>
+
+      <h5>Jelly</h5>
+      <p class="w3-text-grey">Jelly is my favorite snack. I'm a developer, so when I'm coding in a company, the best snack is jelly.</p><br>
+
+      <h5>Cold noodles</h5>
+      <p class="w3-text-grey">I like sour food and cold food. Cold noodles are the best sour and cold food.</p><br>
+
+      <h5>Stir-fried Rice Cake</h5>
+      <p class="w3-text-grey">Tteokbokki is the best food. It's the best sweet and spicy food you can eat all week.</p>
+    </div>
+    <img src="../res/001.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+    <p>My favorite picture of NU'EST.</p>
   </div>
 </div>
 
 <!-- Contact/Area Container -->
-<div class="w3-container" id="where" style="padding-bottom:32px;">
+<div class="w3-container" id="picture" style="padding-bottom:32px;">
   <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
-    <p>Find us at some address at some place.</p>
-    <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
-    </form>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">MY FAVORITE PICTURE WAS TAKEN BY ME</span></h5>
+    <p>My hobby is taking pictures, and my favorite pictures are pictures that I took with a glass beads.</p>
+    <img src="../res/01.JPG" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">HOORAY!</span> Glass beads can look amazing. I was surprised to see the first picture I took with a glass beads.
+      My hobby is taking a picture like that, taken using the product that I was so surprised.
+      I've only taken pictures of completely pretty scenery, but after buying the glass beads,
+      I can take pictures of even more beautiful scenery.</p>
   </div>
 </div>
 
